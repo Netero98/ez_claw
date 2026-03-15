@@ -17,3 +17,4 @@
 ## Why this is cool?
 1. Zero configuration for you - just add your API provider envs and use Claude code with any provider, not only Anthropic
 2. The one cool thing about OpenClaw - agentic loop, but there are too much things for me to configure. I just need single prompt to do everything. Claude does it.
+3. OpenClaw is a big black box. This project is a single Dockerfile, ez to check and use confidently
