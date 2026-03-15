@@ -12,3 +12,7 @@
    ```
 3. Use docker exec to use standart Claude CLI as always
 4. Thats it
+
+## Why this is cool?
+1. Zero configuration for you - just add your API provider envs and use Claude code with any provider, not only Anthropic
+2. The one cool think about OpenClaw - agentic loop, but there are too much things for me. I just need single prompt to do everything. Claude does it.
