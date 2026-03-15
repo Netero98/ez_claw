@@ -8,7 +8,7 @@
      OPENAI_API_KEY=your_token
      ANTHROPIC_DEFAULT_SONNET_MODEL=Qwen/Qwen3-Coder-Next-TEE
      ANTHROPIC_DEFAULT_HAIKU_MODEL=Qwen/Qwen3-Coder-Next-TEE
-     ANTHROPIC_BASE_URL=http://localhost # internal proxy, don't change
+     ANTHROPIC_BASE_URL=http://localhost # internal proxy to use custom API provider, don't change !
    ```
 4. Use docker exec to use standart Claude CLI as always
 5. Write your prompts in cli as usual. Or save them as docker volume to reuse. Thats what they name as "skills"
