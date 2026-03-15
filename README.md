@@ -1,4 +1,4 @@
-# Zero configuration alternative to OpenClaw for developers
+# Zero configuration alternative to OpenClaw via Claude CLI for developers
 
 ## How to setup ?
 1. Run  via docker with --privileged flag.
