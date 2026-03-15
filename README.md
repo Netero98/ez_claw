@@ -2,7 +2,7 @@
 
 ## How to setup ?
 1. Run  via docker with --privileged flag.
-2. Add your API provider envs:
+2. Add your API provider envs like you usually do for containers deploy:
    ```
      OPENAI_BASE_URL=https://llm.chutes.ai/v1
      OPENAI_API_KEY=your_token
