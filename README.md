@@ -11,7 +11,8 @@
      ANTHROPIC_BASE_URL=http://localhost
    ```
 3. Use docker exec to use standart Claude CLI as always
-4. Thats it
+4. Write your prompts in cli as usual. Or save them as docker volume to reuse. Thats what they name as "skills"
+5. Thats it
 
 ## Why this is cool?
 1. Zero configuration for you - just add your API provider envs and use Claude code with any provider, not only Anthropic
