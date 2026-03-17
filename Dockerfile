@@ -13,7 +13,8 @@ RUN apk add --no-cache \
     git \
     openssh-client \
     curl \
-    bash
+    bash \
+    make
 
 COPY --from=proxy-builder /usr/local/bin/claude-code-proxy /usr/local/bin/claude-code-proxy
 
