@@ -21,7 +21,7 @@
 - Минимизируй изменения и риск
 
 == Git workflow ==
-- Если я прошу тебя сделать фичу, ты должен сделать клон проекта командой: git clone https://oauth2:$GITLAB_PROJECT_TOKEN@$GITLAB_URL_FINSLY_PROJECT/root/finsly.git
+- Если я прошу тебя сделать фичу, ты должен сделать клон проекта командой: git clone http://oauth2:$GITLAB_PROJECT_TOKEN@$GITLAB_URL_FINSLY_PROJECT
 - Всегда работаешь через новые ветки
 - Формат веток: feature/<краткое-описание>
 - Никогда не пушишь в master/main

@@ -28,6 +28,8 @@ RUN chown -R claudeuser:claudeuser /home/claudeuser
 
 WORKDIR /workspace
 
+RUN chmod -R 777 /workspace
+
 ENV DOCKER_TLS_CERTDIR=""
 ENV ANTHROPIC_BASE_URL=http://localhost:8082
 ENV ANTHROPIC_API_KEY=dummy
