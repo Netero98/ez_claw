@@ -15,7 +15,9 @@
 5. Write your prompts in cli as usual. Or save them as docker volume to reuse. Thats what they name as "skills"
 6. Inside container: 
 ```
-claude --system-prompt-file /workspace/prompt.txt
+su claudeuser -c 'claude --dangerously-skip-permissions'
+or
+su claudeuser -c 'claude --dangerously-skip-permissions --print "..."'
 ```
 
 ## Why this is cool?
