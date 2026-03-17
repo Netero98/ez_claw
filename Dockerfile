@@ -18,6 +18,9 @@ COPY --from=proxy-builder /usr/local/bin/claude-code-proxy /usr/local/bin/claude
 
 RUN npm install -g @anthropic-ai/claude-code
 
+RUN git config --global user.name "claude-code" && \
+    git config --global user.email "claude@local"
+
 WORKDIR /workspace
 
 ENV DOCKER_TLS_CERTDIR=""
