@@ -9,10 +9,14 @@
      ANTHROPIC_DEFAULT_SONNET_MODEL=Qwen/Qwen3-Coder-Next-TEE
      ANTHROPIC_DEFAULT_HAIKU_MODEL=Qwen/Qwen3-Coder-Next-TEE
      ANTHROPIC_BASE_URL=http://localhost # internal proxy to use custom API provider, don't change !
+     ANTHROPIC_AUTH_TOKEN=your_token
    ```
 4. Use docker exec to use standard Claude CLI as always
 5. Write your prompts in cli as usual. Or save them as docker volume to reuse. Thats what they name as "skills"
-6. Thats it
+6. Inside container: 
+```
+claude --system-prompt-file /workspace/prompt.txt
+```
 
 ## Why this is cool?
 1. Zero configuration for you - just add your API provider envs and use Claude code with any provider, not only Anthropic
